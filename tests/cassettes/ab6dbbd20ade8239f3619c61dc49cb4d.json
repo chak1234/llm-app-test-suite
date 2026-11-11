@@ -1,0 +1,6 @@
+{
+  "key": "ab6dbbd20ade8239f3619c61dc49cb4da0df88bf0cc96b7413807a9ad590002f",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/shipping.md\">\nShipping - Standard shipping\nStandard shipping takes 3 to 5 business days and costs $4.99. Orders with a subtotal of $75 or more ship free with standard shipping.\n</document>\n\n<document source=\"data/kb/refunds.md\">\nReturns and Refunds - Refund timing and fees\nOnce the warehouse receives your return, the refund is issued within 7 business days to the original payment method. Opened items have a 15% restocking fee deducted from the refund. Unopened items are refunded in full.\n</document>\n\n<document source=\"data/kb/refunds.md\">\nReturns and Refunds - Return shipping\nA prepaid return label costs $6.95, and the amount is deducted from your refund. If the item arrived defective or damaged, the return label is free.\n</document>\n\nQuestion: Where is your nearest retail store?",
+  "response": "I don't know."
+}

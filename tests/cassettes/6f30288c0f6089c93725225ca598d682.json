@@ -1,0 +1,6 @@
+{
+  "key": "6f30288c0f6089c93725225ca598d6824ec544ac2ada71d258bc8344b18602c7",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/refunds.md\">\nReturns and Refunds - Refund timing and fees\nOnce the warehouse receives your return, the refund is issued within 7 business days to the original payment method. Opened items have a 15% restocking fee deducted from the refund. Unopened items are refunded in full.\n</document>\n\n<document source=\"data/kb/refunds.md\">\nReturns and Refunds - Return window\nYou can return any Brindlewick Audio product within 30 days of the delivery date. The item must include its original packaging and all accessories. Returns requested after the 30 day window are not accepted.\n</document>\n\n<document source=\"data/kb/refunds.md\">\nReturns and Refunds - Items that cannot be returned\nClearance items marked \"Final Sale\" and digital gift cards cannot be returned or refunded.\n</document>\n\nQuestion: Until when are returns accepted?",
+  "response": "Returns are accepted within 30 days of the delivery date."
+}

@@ -1,0 +1,6 @@
+{
+  "key": "e38d596665c0e45ab87b48012fa7f223078c5089c08f2d1168c54bb161186705",
+  "model": "llama3.2:3b",
+  "user": "SOURCE:\n[1] Gift Cards - Buying a gift card\nDigital gift cards are available in amounts from $10 to $500. The gift card is delivered by email within 1 hour of purchase.\n\n[2] Payments - When you are charged\nYour card is charged when the order ships, not when the order is placed. A temporary authorization hold may appear at checkout and drops off within 3 business days.\n\n[3] Gift Cards - Expiry and refunds\nBrindlewick Audio gift cards never expire. Gift cards cannot be refunded, returned, or exchanged for cash.\n\nANSWER:\nWithin 1 hour of purchase.",
+  "response": "{\"claims\": [{\"claim\": \"Within 1 hour of purchase.\", \"supported\": false}], \"supported\": 0, \"total\": 1}"
+}

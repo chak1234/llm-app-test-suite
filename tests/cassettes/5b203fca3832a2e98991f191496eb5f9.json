@@ -1,0 +1,6 @@
+{
+  "key": "5b203fca3832a2e98991f191496eb5f9c2d5029cf2dc51f5943f2284e01cc190",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/accounts.md\">\nAccounts and Login - Passwords\nAccount passwords must be at least 12 characters long. A password reset link is sent by email and expires after 60 minutes.\n</document>\n\n<document source=\"data/kb/accounts.md\">\nAccounts and Login - Two-step verification\nTwo-step verification sends a 6-digit code to your email address at each new login. The code is valid for 10 minutes.\n</document>\n\n<document source=\"data/kb/accounts.md\">\nAccounts and Login - Account lockout\nAfter 5 failed login attempts, the account is locked for 30 minutes. The lock clears on its own; support agents cannot unlock an account early.\n</document>\n\nQuestion: How long is a password reset link valid?",
+  "response": "A password reset link is valid for 60 minutes."
+}

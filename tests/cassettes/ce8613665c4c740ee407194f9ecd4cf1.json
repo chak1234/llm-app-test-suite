@@ -1,0 +1,6 @@
+{
+  "key": "ce8613665c4c740ee407194f9ecd4cf15f854fbd813c5e3f2cb7a8ed90346d98",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/refunds.md\">\nReturns and Refunds - Return window\nYou can return any Brindlewick Audio product within 30 days of the delivery date. The item must include its original packaging and all accessories. Returns requested after the 30 day window are not accepted.\n</document>\n\n<document source=\"data/kb/gift-cards.md\">\nGift Cards - Expiry and refunds\nBrindlewick Audio gift cards never expire. Gift cards cannot be refunded, returned, or exchanged for cash.\n</document>\n\n<document source=\"data/kb/support.md\">\nContacting Support - Support hours\nThe Brindlewick Audio support team is available Monday to Friday, 8 a.m. to 6 p.m. Eastern Time. Support is closed on weekends and US public holidays.\n</document>\n\nQuestion: Do you have a trade-in program for old speakers?",
+  "response": "I don't know."
+}

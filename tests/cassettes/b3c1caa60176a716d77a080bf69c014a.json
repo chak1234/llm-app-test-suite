@@ -1,0 +1,6 @@
+{
+  "key": "b3c1caa60176a716d77a080bf69c014a7d19b8cd72b11eb9a7252b4e8d2b4403",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/rewards.md\">\nWick Rewards Program - Point expiry\nPoints expire 18 months after they are earned. Vouchers expire 90 days after they are issued.\n</document>\n\n<document source=\"data/kb/accounts.md\">\nAccounts and Login - Deleting your account\nYou can request account deletion from the Privacy page of your account settings. Deletion is completed within 14 days, and unused reward points are lost when the account is deleted.\n</document>\n\n<document source=\"data/kb/rewards.md\">\nWick Rewards Program - Redeeming points\nEvery 200 points can be redeemed for a $10 voucher. Vouchers can be used on any product but not on gift cards. Only one voucher can be used per order.\n</document>\n\nQuestion: After how many months do reward points expire?",
+  "response": "According to the Wick Rewards Program, points expire 18 months after they are earned."
+}

@@ -1,0 +1,6 @@
+{
+  "key": "7a94095034b3fa1f9d9448e2ee7a5d4b9721232b55c46f1eed67e3a54e5238dd",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/warranty.md\">\nWarranty - Warranty periods\nBrindlewick Audio headphones have a warranty period of 12 months from the delivery date. Speakers have a warranty period of 24 months. Cables, ear tips, and other accessories have a warranty period of 3 months.\n</document>\n\n<document source=\"data/kb/repairs.md\">\nOut-of-Warranty Repairs - Repair fees\nProducts outside their warranty period can be repaired for a flat fee. A headphone repair costs $39 and a speaker repair costs $59. The fee includes parts, labor, and return shipping.\n</document>\n\n<document source=\"data/kb/accounts.md\">\nAccounts and Login - Passwords\nAccount passwords must be at least 12 characters long. A password reset link is sent by email and expires after 60 minutes.\n</document>\n\nQuestion: What is the battery life of your wireless headphones?",
+  "response": "I don't know."
+}

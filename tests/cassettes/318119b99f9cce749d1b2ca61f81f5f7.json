@@ -1,0 +1,6 @@
+{
+  "key": "318119b99f9cce749d1b2ca61f81f5f7ec2e66fe02311d0b3a0d24489af9fde4",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/shipping.md\">\nShipping - Standard shipping\nStandard shipping takes 3 to 5 business days and costs $4.99. Orders with a subtotal of $75 or more ship free with standard shipping.\n</document>\n\n<document source=\"data/kb/shipping.md\">\nShipping - Express shipping\nExpress shipping takes 2 business days and costs $14.99. Express shipping is never free, including on orders that qualify for free standard shipping.\n</document>\n\n<document source=\"data/kb/refunds.md\">\nReturns and Refunds - Return shipping\nA prepaid return label costs $6.95, and the amount is deducted from your refund. If the item arrived defective or damaged, the return label is free.\n</document>\n\nQuestion: How much do I need to spend to get free shipping?",
+  "response": "You need to spend $75 or more to get free standard shipping."
+}

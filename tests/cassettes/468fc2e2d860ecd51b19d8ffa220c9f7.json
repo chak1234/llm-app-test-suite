@@ -1,0 +1,6 @@
+{
+  "key": "468fc2e2d860ecd51b19d8ffa220c9f723a20065c9200934dda70427f9027c66",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/accounts.md\">\nAccounts and Login - Account lockout\nAfter 5 failed login attempts, the account is locked for 30 minutes. The lock clears on its own; support agents cannot unlock an account early.\n</document>\n\n<document source=\"data/kb/accounts.md\">\nAccounts and Login - Passwords\nAccount passwords must be at least 12 characters long. A password reset link is sent by email and expires after 60 minutes.\n</document>\n\n<document source=\"data/kb/accounts.md\">\nAccounts and Login - Deleting your account\nYou can request account deletion from the Privacy page of your account settings. Deletion is completed within 14 days, and unused reward points are lost when the account is deleted.\n</document>\n\nQuestion: How long is my account locked after too many failed logins?",
+  "response": "According to the documents, after 5 failed login attempts, your account is locked for 30 minutes."
+}

@@ -1,0 +1,6 @@
+{
+  "key": "f909ccdee03e2438a2798a4e2d92279eb57b27c3a66e3e82119e0403e2110555",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/order-changes.md\">\nChanging or Cancelling an Order - Cancelling an order\nYou can cancel an order within 45 minutes of placing it, from the Orders page of your account. After 45 minutes the order is sent to the warehouse and can no longer be cancelled; you can return it once it arrives.\n</document>\n\n<document source=\"data/kb/order-changes.md\">\nChanging or Cancelling an Order - Changing items\nItems cannot be added to or swapped in an existing order. Cancel the order and place a new one instead. A cancelled order is refunded within 2 business days.\n</document>\n\n<document source=\"data/kb/refunds.md\">\nReturns and Refunds - Refund timing and fees\nOnce the warehouse receives your return, the refund is issued within 7 business days to the original payment method. Opened items have a 15% restocking fee deducted from the refund. Unopened items are refunded in full.\n</document>\n\nQuestion: How quickly is a cancelled order refunded?",
+  "response": "A cancelled order is refunded within 2 business days."
+}

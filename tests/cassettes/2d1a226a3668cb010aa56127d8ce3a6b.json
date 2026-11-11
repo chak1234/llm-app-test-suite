@@ -1,0 +1,6 @@
+{
+  "key": "2d1a226a3668cb010aa56127d8ce3a6b50067b367f37aa2d47c5ad5042152a0b",
+  "model": "llama3.2:3b",
+  "user": "SOURCE:\n[1] Warranty - How to make a warranty claim\nSubmit a claim through the Warranty Desk form with your order number and a photo of the defect. Claims are reviewed within 5 business days. Approved claims receive a replacement unit, not a cash refund.\n\n[2] Out-of-Warranty Repairs - Repair turnaround\nRepairs are completed within 10 business days of the product arriving at the Brindlewick repair center in Dayton, Ohio.\n\n[3] Out-of-Warranty Repairs - Repair guarantee\nEvery repair comes with a 6 month guarantee on the replaced parts. If a product cannot be repaired, the repair fee is refunded in full and you receive a 20% discount code toward a replacement.\n\nANSWER:\nClaims are reviewed within 5 business days.",
+  "response": "{\"claims\": [{\"claim\": \"Claims are reviewed within 5 business days.\", \"supported\": true}], \"supported\": 1, \"total\": 1}"
+}

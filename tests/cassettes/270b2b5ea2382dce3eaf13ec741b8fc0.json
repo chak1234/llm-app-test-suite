@@ -1,0 +1,6 @@
+{
+  "key": "270b2b5ea2382dce3eaf13ec741b8fc009fa337778a4dd8665b1449fd1680a09",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/rewards.md\">\nWick Rewards Program - Point expiry\nPoints expire 18 months after they are earned. Vouchers expire 90 days after they are issued.\n</document>\n\n<document source=\"data/kb/rewards.md\">\nWick Rewards Program - Redeeming points\nEvery 200 points can be redeemed for a $10 voucher. Vouchers can be used on any product but not on gift cards. Only one voucher can be used per order.\n</document>\n\n<document source=\"data/kb/rewards.md\">\nWick Rewards Program - Earning points\nWick Rewards members earn 1 point for every $1 spent on products. Shipping fees and taxes do not earn points. Members also receive 50 bonus points on their birthday.\n</document>\n\nQuestion: How long are my Wick Rewards points valid?",
+  "response": "According to the Wick Rewards Program, points expire 18 months after they are earned."
+}

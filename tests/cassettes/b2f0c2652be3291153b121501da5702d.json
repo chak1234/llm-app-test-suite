@@ -1,0 +1,6 @@
+{
+  "key": "b2f0c2652be3291153b121501da5702de8f1df7809bda96ab53ff5b1a970e345",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/warranty.md\">\nWarranty - Warranty periods\nBrindlewick Audio headphones have a warranty period of 12 months from the delivery date. Speakers have a warranty period of 24 months. Cables, ear tips, and other accessories have a warranty period of 3 months.\n</document>\n\n<document source=\"data/kb/repairs.md\">\nOut-of-Warranty Repairs - Repair guarantee\nEvery repair comes with a 6 month guarantee on the replaced parts. If a product cannot be repaired, the repair fee is refunded in full and you receive a 20% discount code toward a replacement.\n</document>\n\n<document source=\"data/kb/warranty.md\">\nWarranty - What the warranty covers\nThe warranty covers manufacturing defects, such as a dead driver, a faulty charging port, or a battery that holds less than 70% of its original capacity. It does not cover water damage, accidental drops, or normal cosmetic wear.\n</document>\n\nQuestion: How long are accessories like cables covered by warranty?",
+  "response": "According to the documents, accessories like cables are covered by warranty for 3 months."
+}

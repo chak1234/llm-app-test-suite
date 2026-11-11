@@ -1,0 +1,6 @@
+{
+  "key": "abc67296da5db971c20ef55585d8cf481eab7cd76dcf55d02679944022c0479e",
+  "model": "llama3.2:3b",
+  "user": "SOURCE:\n[1] Accounts and Login - Deleting your account\nYou can request account deletion from the Privacy page of your account settings. Deletion is completed within 14 days, and unused reward points are lost when the account is deleted.\n\n[2] Accounts and Login - Passwords\nAccount passwords must be at least 12 characters long. A password reset link is sent by email and expires after 60 minutes.\n\n[3] Accounts and Login - Account lockout\nAfter 5 failed login attempts, the account is locked for 30 minutes. The lock clears on its own; support agents cannot unlock an account early.\n\nANSWER:\nAccording to the documents, account deletion is completed within 14 days.",
+  "response": "{\"claims\": [{\"claim\": \"account deletion is completed within 14 days\", \"supported\": true}], \"supported\": 1, \"total\": 1}"
+}

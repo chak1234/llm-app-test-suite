@@ -1,0 +1,6 @@
+{
+  "key": "7e2ab028e5b17be9e3df41f44feea1e0918d0930d630601911375bc6bd6c9424",
+  "model": "llama3.2:3b",
+  "user": "SOURCE:\n[1] Returns and Refunds - Return shipping\nA prepaid return label costs $6.95, and the amount is deducted from your refund. If the item arrived defective or damaged, the return label is free.\n\n[2] Shipping - Standard shipping\nStandard shipping takes 3 to 5 business days and costs $4.99. Orders with a subtotal of $75 or more ship free with standard shipping.\n\n[3] Shipping - Express shipping\nExpress shipping takes 2 business days and costs $14.99. Express shipping is never free, including on orders that qualify for free standard shipping.\n\nANSWER:\n$6.95.",
+  "response": "{\"claims\": [{\"claim\": \"A prepaid return label costs $6.95, and the amount is deducted from your refund.\", \"supported\": true}, {\"claim\": \"Express shipping takes 2 business days and costs $14.99.\", \"supported\": true}], \"supported\": 2, \"total\": 2}"
+}

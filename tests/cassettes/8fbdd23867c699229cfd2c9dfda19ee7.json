@@ -1,0 +1,6 @@
+{
+  "key": "8fbdd23867c699229cfd2c9dfda19ee75c93186c6566718165709457e8c31b9f",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/accounts.md\">\nAccounts and Login - Deleting your account\nYou can request account deletion from the Privacy page of your account settings. Deletion is completed within 14 days, and unused reward points are lost when the account is deleted.\n</document>\n\n<document source=\"data/kb/rewards.md\">\nWick Rewards Program - Point expiry\nPoints expire 18 months after they are earned. Vouchers expire 90 days after they are issued.\n</document>\n\n<document source=\"data/kb/rewards.md\">\nWick Rewards Program - Earning points\nWick Rewards members earn 1 point for every $1 spent on products. Shipping fees and taxes do not earn points. Members also receive 50 bonus points on their birthday.\n</document>\n\nQuestion: Do my reward points run out, and if so when?",
+  "response": "According to the Wick Rewards Program, points expire 18 months after they are earned."
+}

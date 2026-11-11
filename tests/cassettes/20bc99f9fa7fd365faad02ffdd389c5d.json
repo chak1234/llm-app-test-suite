@@ -1,0 +1,6 @@
+{
+  "key": "20bc99f9fa7fd365faad02ffdd389c5d837c069c33c89d9f4bad4c66149440f4",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/support.md\">\nContacting Support - Support hours\nThe Brindlewick Audio support team is available Monday to Friday, 8 a.m. to 6 p.m. Eastern Time. Support is closed on weekends and US public holidays.\n</document>\n\n<document source=\"data/kb/refunds.md\">\nReturns and Refunds - Return window\nYou can return any Brindlewick Audio product within 30 days of the delivery date. The item must include its original packaging and all accessories. Returns requested after the 30 day window are not accepted.\n</document>\n\n<document source=\"data/kb/payments.md\">\nPayments - Accepted payment methods\nBrindlewick Audio accepts Visa, Mastercard, and PayPal. Cash on delivery and personal checks are not accepted. All prices are charged in US dollars.\n</document>\n\nQuestion: Who is the CEO of Brindlewick Audio?",
+  "response": "I don't know."
+}

@@ -1,0 +1,6 @@
+{
+  "key": "740077e3cb0606eab4aafadabb26467595142897280449899ae81acbbccaeb65",
+  "model": "llama3.2:3b",
+  "user": "SOURCE:\n[1] Gift Cards - Buying a gift card\nDigital gift cards are available in amounts from $10 to $500. The gift card is delivered by email within 1 hour of purchase.\n\n[2] Gift Cards - Using a gift card\nUp to 2 gift cards can be applied to a single order. A gift card can be combined with one rewards voucher. Any unused balance stays on the card.\n\n[3] Payments - Paying in installments\nOrders of $120 or more can be paid with SplitFour, which divides the total into 4 interest-free payments taken every 2 weeks. Gift card purchases cannot be paid with SplitFour.\n\nANSWER:\nDigital gift cards are available in amounts from $10 to $500.",
+  "response": "{\"claims\": [{\"claim\": \"Digital gift cards are available in amounts from $10 to $500.\", \"supported\": true}], \"supported\": 1, \"total\": 1}"
+}

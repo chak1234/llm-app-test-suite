@@ -1,0 +1,6 @@
+{
+  "key": "8ace0e31cff63197d008f4a0a0521dbccd12f6c84fb8d86f3a8a7ea250f26fbf",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/rewards.md\">\nWick Rewards Program - Redeeming points\nEvery 200 points can be redeemed for a $10 voucher. Vouchers can be used on any product but not on gift cards. Only one voucher can be used per order.\n</document>\n\n<document source=\"data/kb/rewards.md\">\nWick Rewards Program - Earning points\nWick Rewards members earn 1 point for every $1 spent on products. Shipping fees and taxes do not earn points. Members also receive 50 bonus points on their birthday.\n</document>\n\n<document source=\"data/kb/rewards.md\">\nWick Rewards Program - Point expiry\nPoints expire 18 months after they are earned. Vouchers expire 90 days after they are issued.\n</document>\n\nQuestion: How many points do I need for a voucher, and what is the voucher worth?",
+  "response": "You need 200 points to redeem a voucher, and the voucher is worth $10."
+}

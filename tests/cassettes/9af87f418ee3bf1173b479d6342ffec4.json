@@ -1,0 +1,6 @@
+{
+  "key": "9af87f418ee3bf1173b479d6342ffec48d18dfc2b31363241aba15626fad8bb9",
+  "model": "llama3.2:3b",
+  "user": "SOURCE:\n[1] Wick Rewards Program - Redeeming points\nEvery 200 points can be redeemed for a $10 voucher. Vouchers can be used on any product but not on gift cards. Only one voucher can be used per order.\n\n[2] Wick Rewards Program - Earning points\nWick Rewards members earn 1 point for every $1 spent on products. Shipping fees and taxes do not earn points. Members also receive 50 bonus points on their birthday.\n\n[3] Wick Rewards Program - Point expiry\nPoints expire 18 months after they are earned. Vouchers expire 90 days after they are issued.\n\nANSWER:\nYou need 200 points to redeem a voucher, and the voucher is worth $10.",
+  "response": "{\"claims\": [{\"claim\": \"You need 200 points to redeem a voucher\", \"supported\": true}, {\"claim\": \"The voucher is worth $10\", \"supported\": true}], \"supported\": 2, \"total\": 2}"
+}

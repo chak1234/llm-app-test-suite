@@ -1,0 +1,6 @@
+{
+  "key": "52f271337714e0d95e8739b6de9c076a14baef6271a700a024f215fa73c9a6ae",
+  "model": "llama3.2:3b",
+  "user": "SOURCE:\n[1] Warranty - Warranty periods\nBrindlewick Audio headphones have a warranty period of 12 months from the delivery date. Speakers have a warranty period of 24 months. Cables, ear tips, and other accessories have a warranty period of 3 months.\n\n[2] Out-of-Warranty Repairs - Repair fees\nProducts outside their warranty period can be repaired for a flat fee. A headphone repair costs $39 and a speaker repair costs $59. The fee includes parts, labor, and return shipping.\n\n[3] Out-of-Warranty Repairs - Repair guarantee\nEvery repair comes with a 6 month guarantee on the replaced parts. If a product cannot be repaired, the repair fee is refunded in full and you receive a 20% discount code toward a replacement.\n\nANSWER:\nThe warranty period on speakers is 24 months.",
+  "response": "{\"claims\": [{\"claim\": \"The warranty period on speakers is 24 months.\", \"supported\": true}], \"supported\": 1, \"total\": 1}"
+}

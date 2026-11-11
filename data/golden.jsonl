@@ -1,0 +1,60 @@
+{"id": "refund-01", "type": "answerable", "question": "How long do I have to return an item?", "expected_facts": ["30 day"], "must_not_contain": ["14 day", "60 day", "90 day"]}
+{"id": "refund-02", "type": "answerable", "question": "How long does it take to get my refund after you receive my return?", "expected_facts": ["7 business day"], "must_not_contain": ["3 business day", "10 business day", "14 business day"]}
+{"id": "refund-03", "type": "answerable", "question": "Is there a restocking fee for opened items?", "expected_facts": ["15%"], "must_not_contain": ["10%", "20%", "25%"]}
+{"id": "refund-04", "type": "answerable", "question": "How much does a return shipping label cost?", "expected_facts": ["$6.95"], "must_not_contain": ["$5.95", "$7.95", "$9.95"]}
+{"id": "shipping-01", "type": "answerable", "question": "How long does standard shipping take?", "expected_facts": ["5 business day"], "must_not_contain": ["7 business day", "10 business day"]}
+{"id": "shipping-02", "type": "answerable", "question": "What order total qualifies for free shipping?", "expected_facts": ["$75"], "must_not_contain": ["$50", "$100"]}
+{"id": "shipping-03", "type": "answerable", "question": "How fast is express shipping and what does it cost?", "expected_facts": ["2 business day", "$14.99"], "must_not_contain": ["$9.99", "$19.99"]}
+{"id": "shipping-04", "type": "answerable", "question": "Which carrier delivers your parcels?", "expected_facts": ["NorthPost"], "must_not_contain": ["UPS", "FedEx", "USPS", "DHL"]}
+{"id": "warranty-01", "type": "answerable", "question": "What is the warranty period for headphones?", "expected_facts": ["12 month"], "must_not_contain": ["6 month", "18 month", "36 month"]}
+{"id": "warranty-02", "type": "answerable", "question": "How long is the warranty on speakers?", "expected_facts": ["24 month"], "must_not_contain": ["18 month", "36 month"]}
+{"id": "warranty-03", "type": "answerable", "question": "How long are accessories like cables covered by warranty?", "expected_facts": ["3 month"], "must_not_contain": ["6 month", "30 day"]}
+{"id": "warranty-04", "type": "answerable", "question": "How long does it take to review a warranty claim?", "expected_facts": ["5 business day"], "must_not_contain": ["7 business day", "10 business day"]}
+{"id": "account-01", "type": "answerable", "question": "What is the minimum password length?", "expected_facts": ["12 character"], "must_not_contain": ["8 character", "10 character", "16 character"]}
+{"id": "account-02", "type": "answerable", "question": "How long is my account locked after too many failed logins?", "expected_facts": ["30 minute"], "must_not_contain": ["15 minute", "24 hour"]}
+{"id": "account-03", "type": "answerable", "question": "How long is a password reset link valid?", "expected_facts": ["60 minute"], "must_not_contain": ["15 minute", "24 hour"]}
+{"id": "account-04", "type": "answerable", "question": "How long does account deletion take?", "expected_facts": ["14 day"], "must_not_contain": ["30 day", "7 day", "90 day"]}
+{"id": "account-05", "type": "answerable", "question": "How long is a two-step verification code valid?", "expected_facts": ["10 minute"], "must_not_contain": ["30 second", "15 minute", "30 minute"]}
+{"id": "payment-01", "type": "answerable", "question": "Which payment methods do you accept?", "expected_facts": ["Visa", "Mastercard", "PayPal"], "must_not_contain": ["American Express", "Amex", "Apple Pay", "Google Pay"]}
+{"id": "payment-02", "type": "answerable", "question": "What is the minimum order amount for paying in installments?", "expected_facts": ["$120"], "must_not_contain": ["$100", "$150", "$50"]}
+{"id": "order-01", "type": "answerable", "question": "How long do I have to cancel an order?", "expected_facts": ["45 minute"], "must_not_contain": ["30 minute", "60 minute", "24 hour"]}
+{"id": "order-02", "type": "answerable", "question": "How quickly is a cancelled order refunded?", "expected_facts": ["2 business day"], "must_not_contain": ["5 business day", "7 business day"]}
+{"id": "repair-01", "type": "answerable", "question": "How much does an out-of-warranty headphone repair cost?", "expected_facts": ["$39"], "must_not_contain": ["$29", "$49"]}
+{"id": "repair-02", "type": "answerable", "question": "How much is a speaker repair outside the warranty?", "expected_facts": ["$59"], "must_not_contain": ["$49", "$69", "$79"]}
+{"id": "repair-03", "type": "answerable", "question": "How long does an out-of-warranty repair take?", "expected_facts": ["10 business day"], "must_not_contain": ["5 business day", "7 business day", "14 business day"]}
+{"id": "rewards-01", "type": "answerable", "question": "How many points do I need for a voucher, and what is the voucher worth?", "expected_facts": ["200 point", "$10"], "must_not_contain": ["100 point", "500 point", "$5 "]}
+{"id": "rewards-02", "type": "answerable", "question": "When do reward points expire?", "expected_facts": ["18 month"], "must_not_contain": ["12 month", "24 month"]}
+{"id": "support-01", "type": "answerable", "question": "What is the support phone number?", "expected_facts": ["1-800-555-0142"], "must_not_contain": []}
+{"id": "support-02", "type": "answerable", "question": "What is the support email address?", "expected_facts": ["help@brindlewick.example"], "must_not_contain": ["support@brindlewick", "brindlewick.com"]}
+{"id": "gift-01", "type": "answerable", "question": "What gift card amounts are available?", "expected_facts": ["$10", "$500"], "must_not_contain": ["$25", "$1,000", "$1000"]}
+{"id": "gift-02", "type": "answerable", "question": "How soon is a digital gift card delivered after purchase?", "expected_facts": ["1 hour"], "must_not_contain": ["24 hour", "business day"]}
+{"id": "unknown-01", "type": "unanswerable", "question": "Do you ship to Antarctica?", "expected_facts": [], "must_not_contain": []}
+{"id": "unknown-02", "type": "unanswerable", "question": "Do you offer a student discount?", "expected_facts": [], "must_not_contain": []}
+{"id": "unknown-03", "type": "unanswerable", "question": "Do you price match other retailers?", "expected_facts": [], "must_not_contain": []}
+{"id": "unknown-04", "type": "unanswerable", "question": "Where is your nearest retail store?", "expected_facts": [], "must_not_contain": []}
+{"id": "unknown-05", "type": "unanswerable", "question": "What is the battery life of your wireless headphones?", "expected_facts": [], "must_not_contain": []}
+{"id": "unknown-06", "type": "unanswerable", "question": "Do you offer engraving on headphones?", "expected_facts": [], "must_not_contain": []}
+{"id": "unknown-07", "type": "unanswerable", "question": "Who is the CEO of Brindlewick Audio?", "expected_facts": [], "must_not_contain": []}
+{"id": "unknown-08", "type": "unanswerable", "question": "Do you have a trade-in program for old speakers?", "expected_facts": [], "must_not_contain": []}
+{"id": "unknown-09", "type": "unanswerable", "question": "Is there a Brindlewick mobile app?", "expected_facts": [], "must_not_contain": []}
+{"id": "unknown-10", "type": "unanswerable", "question": "Do you offer bulk discounts for business orders?", "expected_facts": [], "must_not_contain": []}
+{"id": "para-return-1", "type": "paraphrase", "group": "return-window", "question": "How long do I have to return an item?", "expected_facts": ["30 day"], "must_not_contain": []}
+{"id": "para-return-2", "type": "paraphrase", "group": "return-window", "question": "What's the return window?", "expected_facts": ["30 day"], "must_not_contain": []}
+{"id": "para-return-3", "type": "paraphrase", "group": "return-window", "question": "How many days do I have to send something back?", "expected_facts": ["30 day"], "must_not_contain": []}
+{"id": "para-return-4", "type": "paraphrase", "group": "return-window", "question": "Until when are returns accepted?", "expected_facts": ["30 day"], "must_not_contain": []}
+{"id": "para-warranty-1", "type": "paraphrase", "group": "headphone-warranty", "question": "What is the warranty period for headphones?", "expected_facts": ["12 month"], "must_not_contain": []}
+{"id": "para-warranty-2", "type": "paraphrase", "group": "headphone-warranty", "question": "How long are headphones covered under warranty?", "expected_facts": ["12 month"], "must_not_contain": []}
+{"id": "para-warranty-3", "type": "paraphrase", "group": "headphone-warranty", "question": "For how many months is a pair of headphones under warranty?", "expected_facts": ["12 month"], "must_not_contain": []}
+{"id": "para-warranty-4", "type": "paraphrase", "group": "headphone-warranty", "question": "When does the warranty on my headphones run out?", "expected_facts": ["12 month"], "must_not_contain": []}
+{"id": "para-cancel-1", "type": "paraphrase", "group": "cancel-window", "question": "How long do I have to cancel an order?", "expected_facts": ["45 minute"], "must_not_contain": []}
+{"id": "para-cancel-2", "type": "paraphrase", "group": "cancel-window", "question": "What's the time limit for cancelling an order?", "expected_facts": ["45 minute"], "must_not_contain": []}
+{"id": "para-cancel-3", "type": "paraphrase", "group": "cancel-window", "question": "Until when can I cancel my order?", "expected_facts": ["45 minute"], "must_not_contain": []}
+{"id": "para-cancel-4", "type": "paraphrase", "group": "cancel-window", "question": "How many minutes after ordering can I still cancel?", "expected_facts": ["45 minute"], "must_not_contain": []}
+{"id": "para-freeship-1", "type": "paraphrase", "group": "free-shipping", "question": "What order total qualifies for free shipping?", "expected_facts": ["$75"], "must_not_contain": []}
+{"id": "para-freeship-2", "type": "paraphrase", "group": "free-shipping", "question": "How much do I need to spend to get free shipping?", "expected_facts": ["$75"], "must_not_contain": []}
+{"id": "para-freeship-3", "type": "paraphrase", "group": "free-shipping", "question": "What's the minimum order for free delivery?", "expected_facts": ["$75"], "must_not_contain": []}
+{"id": "para-freeship-4", "type": "paraphrase", "group": "free-shipping", "question": "At what subtotal is standard shipping free?", "expected_facts": ["$75"], "must_not_contain": []}
+{"id": "para-points-1", "type": "paraphrase", "group": "points-expiry", "question": "When do reward points expire?", "expected_facts": ["18 month"], "must_not_contain": []}
+{"id": "para-points-2", "type": "paraphrase", "group": "points-expiry", "question": "How long are my Wick Rewards points valid?", "expected_facts": ["18 month"], "must_not_contain": []}
+{"id": "para-points-3", "type": "paraphrase", "group": "points-expiry", "question": "After how many months do reward points expire?", "expected_facts": ["18 month"], "must_not_contain": []}
+{"id": "para-points-4", "type": "paraphrase", "group": "points-expiry", "question": "Do my reward points run out, and if so when?", "expected_facts": ["18 month"], "must_not_contain": []}

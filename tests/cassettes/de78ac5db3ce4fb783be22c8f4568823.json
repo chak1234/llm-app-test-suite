@@ -1,0 +1,6 @@
+{
+  "key": "de78ac5db3ce4fb783be22c8f4568823a55e7e8f3c00e4bcc4db99ad64dc9d26",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/refunds.md\">\nReturns and Refunds - Refund timing and fees\nOnce the warehouse receives your return, the refund is issued within 7 business days to the original payment method. Opened items have a 15% restocking fee deducted from the refund. Unopened items are refunded in full.\n</document>\n\n<document source=\"data/kb/refunds.md\">\nReturns and Refunds - Items that cannot be returned\nClearance items marked \"Final Sale\" and digital gift cards cannot be returned or refunded.\n</document>\n\n<document source=\"data/kb/refunds.md\">\nReturns and Refunds - Return shipping\nA prepaid return label costs $6.95, and the amount is deducted from your refund. If the item arrived defective or damaged, the return label is free.\n</document>\n\nQuestion: Is there a restocking fee for opened items?",
+  "response": "Yes, there is a 15% restocking fee for opened items."
+}

@@ -1,0 +1,6 @@
+{
+  "key": "e0b6411e249c20b8e40ccfd43ab55791a0d5cefd441b6ed89f842493ed930854",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/payments.md\">\nPayments - Accepted payment methods\nBrindlewick Audio accepts Visa, Mastercard, and PayPal. Cash on delivery and personal checks are not accepted. All prices are charged in US dollars.\n</document>\n\n<document source=\"data/kb/payments.md\">\nPayments - Paying in installments\nOrders of $120 or more can be paid with SplitFour, which divides the total into 4 interest-free payments taken every 2 weeks. Gift card purchases cannot be paid with SplitFour.\n</document>\n\n<document source=\"data/kb/payments.md\">\nPayments - When you are charged\nYour card is charged when the order ships, not when the order is placed. A temporary authorization hold may appear at checkout and drops off within 3 business days.\n</document>\n\nQuestion: Which payment methods do you accept?",
+  "response": "We accept Visa, Mastercard, and PayPal."
+}

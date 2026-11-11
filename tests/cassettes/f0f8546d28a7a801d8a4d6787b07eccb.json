@@ -1,0 +1,6 @@
+{
+  "key": "f0f8546d28a7a801d8a4d6787b07eccba2e9ae664184bb9edfd2055aa5539a27",
+  "model": "llama3.2:3b",
+  "user": "SOURCE:\n[1] Contacting Support - Contact channels\nYou can reach support by email at help@brindlewick.example or by phone at 1-800-555-0142. Live chat is available on the website during support hours.\n\n[2] Contacting Support - Support hours\nThe Brindlewick Audio support team is available Monday to Friday, 8 a.m. to 6 p.m. Eastern Time. Support is closed on weekends and US public holidays.\n\n[3] Contacting Support - Response times\nEmails are answered within 1 business day. The average wait for live chat is under 4 minutes. Phone calls are not recorded.\n\nANSWER:\nThe support email address is help@brindlewick.example.",
+  "response": "{\"claims\": [{\"claim\": \"The support email address is help@brindlewick.example.\", \"supported\": true}], \"supported\": 1, \"total\": 1}"
+}

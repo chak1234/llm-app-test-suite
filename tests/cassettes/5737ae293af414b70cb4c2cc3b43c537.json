@@ -1,0 +1,6 @@
+{
+  "key": "5737ae293af414b70cb4c2cc3b43c53755de9ff674ad8a65045946ccd9d3dfaf",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/payments.md\">\nPayments - Accepted payment methods\nBrindlewick Audio accepts Visa, Mastercard, and PayPal. Cash on delivery and personal checks are not accepted. All prices are charged in US dollars.\n</document>\n\n<document source=\"data/kb/gift-cards.md\">\nGift Cards - Expiry and refunds\nBrindlewick Audio gift cards never expire. Gift cards cannot be refunded, returned, or exchanged for cash.\n</document>\n\n<document source=\"data/kb/repairs.md\">\nOut-of-Warranty Repairs - Repair fees\nProducts outside their warranty period can be repaired for a flat fee. A headphone repair costs $39 and a speaker repair costs $59. The fee includes parts, labor, and return shipping.\n</document>\n\nQuestion: Do you offer engraving on headphones?",
+  "response": "I don't know."
+}

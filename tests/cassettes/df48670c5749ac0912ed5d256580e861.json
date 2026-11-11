@@ -1,0 +1,6 @@
+{
+  "key": "df48670c5749ac0912ed5d256580e8618ce009dad9d9e7302f41a1e255e44b0f",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/repairs.md\">\nOut-of-Warranty Repairs - Repair fees\nProducts outside their warranty period can be repaired for a flat fee. A headphone repair costs $39 and a speaker repair costs $59. The fee includes parts, labor, and return shipping.\n</document>\n\n<document source=\"data/kb/repairs.md\">\nOut-of-Warranty Repairs - Repair guarantee\nEvery repair comes with a 6 month guarantee on the replaced parts. If a product cannot be repaired, the repair fee is refunded in full and you receive a 20% discount code toward a replacement.\n</document>\n\n<document source=\"data/kb/repairs.md\">\nOut-of-Warranty Repairs - Repair turnaround\nRepairs are completed within 10 business days of the product arriving at the Brindlewick repair center in Dayton, Ohio.\n</document>\n\nQuestion: How much is a speaker repair outside the warranty?",
+  "response": "A speaker repair outside the warranty costs $59."
+}

@@ -1,0 +1,6 @@
+{
+  "key": "16fb075e70795bf6c5483ad9f8fdcdac67cbd956275a759b6f004aa0487bdf34",
+  "model": "llama3.2:3b",
+  "user": "SOURCE:\n[1] Shipping - Order processing\nOrders placed before 2 p.m. Eastern Time on a business day ship the same day. Orders placed later ship the next business day. All parcels are carried by NorthPost Courier.\n\n[2] Shipping - Standard shipping\nStandard shipping takes 3 to 5 business days and costs $4.99. Orders with a subtotal of $75 or more ship free with standard shipping.\n\n[3] Shipping - Express shipping\nExpress shipping takes 2 business days and costs $14.99. Express shipping is never free, including on orders that qualify for free standard shipping.\n\nANSWER:\nNorthPost Courier.",
+  "response": "{\"claims\": [{\"claim\": \"NorthPost Courier\", \"supported\": true}], \"supported\": 1, \"total\": 1}"
+}

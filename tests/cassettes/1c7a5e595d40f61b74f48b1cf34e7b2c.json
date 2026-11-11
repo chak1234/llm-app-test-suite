@@ -1,0 +1,6 @@
+{
+  "key": "1c7a5e595d40f61b74f48b1cf34e7b2c0739e4cdd0eb4ce1c6a9ee1462819bde",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/refunds.md\">\nReturns and Refunds - Return window\nYou can return any Brindlewick Audio product within 30 days of the delivery date. The item must include its original packaging and all accessories. Returns requested after the 30 day window are not accepted.\n</document>\n\n<document source=\"data/kb/refunds.md\">\nReturns and Refunds - Refund timing and fees\nOnce the warehouse receives your return, the refund is issued within 7 business days to the original payment method. Opened items have a 15% restocking fee deducted from the refund. Unopened items are refunded in full.\n</document>\n\n<document source=\"data/kb/order-changes.md\">\nChanging or Cancelling an Order - Cancelling an order\nYou can cancel an order within 45 minutes of placing it, from the Orders page of your account. After 45 minutes the order is sent to the warehouse and can no longer be cancelled; you can return it once it arrives.\n</document>\n\nQuestion: How many days do I have to send something back?",
+  "response": "You have 30 days from the delivery date to return a product."
+}

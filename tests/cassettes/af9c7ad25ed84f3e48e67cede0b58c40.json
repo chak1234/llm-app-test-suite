@@ -1,0 +1,6 @@
+{
+  "key": "af9c7ad25ed84f3e48e67cede0b58c4002af7d2d866a5db1621ec11652fccd01",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/rewards.md\">\nWick Rewards Program - Redeeming points\nEvery 200 points can be redeemed for a $10 voucher. Vouchers can be used on any product but not on gift cards. Only one voucher can be used per order.\n</document>\n\n<document source=\"data/kb/refunds.md\">\nReturns and Refunds - Return shipping\nA prepaid return label costs $6.95, and the amount is deducted from your refund. If the item arrived defective or damaged, the return label is free.\n</document>\n\n<document source=\"data/kb/rewards.md\">\nWick Rewards Program - Earning points\nWick Rewards members earn 1 point for every $1 spent on products. Shipping fees and taxes do not earn points. Members also receive 50 bonus points on their birthday.\n</document>\n\nQuestion: Do you offer a student discount?",
+  "response": "I don't know."
+}

@@ -1,0 +1,6 @@
+{
+  "key": "180fa7b156931af72539659e2e92391f74233c7752792d6510005a5a9554cae3",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/payments.md\">\nPayments - Paying in installments\nOrders of $120 or more can be paid with SplitFour, which divides the total into 4 interest-free payments taken every 2 weeks. Gift card purchases cannot be paid with SplitFour.\n</document>\n\n<document source=\"data/kb/payments.md\">\nPayments - When you are charged\nYour card is charged when the order ships, not when the order is placed. A temporary authorization hold may appear at checkout and drops off within 3 business days.\n</document>\n\n<document source=\"data/kb/gift-cards.md\">\nGift Cards - Using a gift card\nUp to 2 gift cards can be applied to a single order. A gift card can be combined with one rewards voucher. Any unused balance stays on the card.\n</document>\n\nQuestion: What is the minimum order amount for paying in installments?",
+  "response": "$120."
+}

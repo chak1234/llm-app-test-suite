@@ -1,0 +1,6 @@
+{
+  "key": "5e2e524596c07be558d2161d0bae558cf8f69d38dbb851e26c2f0fc2db81e9e1",
+  "model": "llama3.2:3b",
+  "user": "SOURCE:\n[1] Changing or Cancelling an Order - Cancelling an order\nYou can cancel an order within 45 minutes of placing it, from the Orders page of your account. After 45 minutes the order is sent to the warehouse and can no longer be cancelled; you can return it once it arrives.\n\n[2] Changing or Cancelling an Order - Changing items\nItems cannot be added to or swapped in an existing order. Cancel the order and place a new one instead. A cancelled order is refunded within 2 business days.\n\n[3] Payments - When you are charged\nYour card is charged when the order ships, not when the order is placed. A temporary authorization hold may appear at checkout and drops off within 3 business days.\n\nANSWER:\nYou have 24 hours to cancel an order, and cancelling costs a $5 fee.",
+  "response": "{\"claims\": [{\"claim\": \"You have 24 hours to cancel an order\", \"supported\": false}, {\"claim\": \"Cancelling costs a $5 fee\", \"supported\": false}], \"supported\": 0, \"total\": 2}"
+}

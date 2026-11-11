@@ -1,0 +1,6 @@
+{
+  "key": "078527725591bc6421073d453ecacd75c22cd82fcbb32ed30021b436d0ffae1a",
+  "model": "llama3.2:3b",
+  "user": "Documents:\n\n<document source=\"data/kb/support.md\">\nContacting Support - Support hours\nThe Brindlewick Audio support team is available Monday to Friday, 8 a.m. to 6 p.m. Eastern Time. Support is closed on weekends and US public holidays.\n</document>\n\n<document source=\"data/kb/support.md\">\nContacting Support - Contact channels\nYou can reach support by email at help@brindlewick.example or by phone at 1-800-555-0142. Live chat is available on the website during support hours.\n</document>\n\n<document source=\"data/kb/payments.md\">\nPayments - Accepted payment methods\nBrindlewick Audio accepts Visa, Mastercard, and PayPal. Cash on delivery and personal checks are not accepted. All prices are charged in US dollars.\n</document>\n\nQuestion: Is there a Brindlewick mobile app?",
+  "response": "I don't know."
+}
