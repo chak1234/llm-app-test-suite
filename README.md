@@ -142,7 +142,7 @@ The 13 failures are listed in `data/known_issues.yaml`. In replay mode they are 
 - **String checks are literal.** "12 months" passes, "one year" fails. The system prompt asks for exact numbers to keep this rare.
 - **Replay is not live.** A green pull request says nothing about the model's behavior today.
 - **Thresholds fit one model.** Similarity 0.95 comes from 20 repeat runs that all gave the identical answer (1.00), because the local model is deterministic at temperature 0 with a fixed seed. A hosted model will vary more and needs its own value; correct rewordings of the same fact score as low as 0.54. Faithfulness stays at 0.8: judge scores were either at least 0.88 or at most 0.75, so nothing sits near the line.
-- **The nightly live workflow has not run yet.** It needs the secret and variables listed at the end of this file.
+- **The nightly live workflow has not run against a model yet.** Until the secret and variables listed at the end of this file are set, it skips the tests and posts a "Live run skipped" notice.
 - **The data set is small.** 40 questions and 15 attacks show the method; they are not coverage.
 
 ## Adding a test case

@@ -16,19 +16,34 @@ jobs:
       # Set this one under Secrets. Never commit it.
       LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      # Without the secret and the two variables there is no model to call.
+      # Skip with a visible notice instead of failing every night.
+      - id: config
+        run: |
+          if [ -n "$LLM_API_KEY" ] && [ -n "$LLM_BASE_URL" ] && [ -n "$LLM_MODEL" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::notice title=Live run skipped::Set the LLM_API_KEY secret and the LLM_BASE_URL and LLM_MODEL variables to run the live tests."
+          fi
+      - uses: actions/checkout@v7
+        if: steps.config.outputs.ready == 'true'
+      - uses: actions/setup-python@v7
+        if: steps.config.outputs.ready == 'true'
         with:
           python-version: "3.11"
           cache: pip
-      - uses: actions/cache@v4
+      - uses: actions/cache@v6
+        if: steps.config.outputs.ready == 'true'
         with:
           path: ~/.cache/huggingface
           key: hf-all-MiniLM-L6-v2
-      - run: pip install -r requirements.txt
-      - run: pytest -m "hallucination or injection or consistency" --reruns 1 --html=report.html --self-contained-html
-      - uses: actions/upload-artifact@v4
-        if: always()
+      - if: steps.config.outputs.ready == 'true'
+        run: pip install -r requirements.txt
+      - if: steps.config.outputs.ready == 'true'
+        run: pytest -m "hallucination or injection or consistency" --reruns 1 --html=report.html --self-contained-html
+      - uses: actions/upload-artifact@v7
+        if: always() && steps.config.outputs.ready == 'true'
         with:
           name: test-report-live
           path: |
